@@ -1,0 +1,8 @@
+En la terminal escribes:
+flex analizador.l
+
+Luego:
+gcc lex.yy.c -lfl
+
+Por ultimo:
+Luego ejecuta el .exe generado en la terminal
