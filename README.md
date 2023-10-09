@@ -30,4 +30,46 @@ Video tutorial de los pasos 1 - 5: [Youtube](https://www.youtube.com/watch?v=nFG
 1. Ver los resultados en la terminal
 
 ## Resultados Esperados
-Una serie de textos en la terminal indicando lo que el analizador léxico reconoció del codigo, seguido por el token reconocido.
+Una serie de textos en la terminal indicando lo que el analizador léxico reconoció del codigo, seguido por el token reconocido.\
+\
+La terminal se deberia ver como lo siguiente:
+
+```
+COMENTARIO: # Importa la biblioteca math
+LIBRERIA: math
+COMENTARIO: # Define una clase
+CLASE:  MiClase
+SIMBOLO: :
+COMENTARIO: # Define una funcion dentro de la clase
+FUNCION:  mi_funcion
+SIMBOLO: (
+ID: self
+SIMBOLO: ,
+ID: x
+SIMBOLO: )
+SIMBOLO: :
+COMENTARIO: # Utiliza una funcion de la biblioteca math
+ID: return
+ID: math
+TOKEN DESCONOCIDO: .
+ID: sqrt
+SIMBOLO: (
+ID: x
+SIMBOLO: )
+COMENTARIO: # Crea una instancia de la clase
+ID: mi_objeto
+SIMBOLO: =
+ID: MiClase
+SIMBOLO: (
+SIMBOLO: )
+COMENTARIO: # Utiliza la funcion de la instancia de la clase
+ID: print
+SIMBOLO: (
+ID: mi_objeto
+TOKEN DESCONOCIDO: .
+ID: mi_funcion
+SIMBOLO: (
+INTEGER: 16
+SIMBOLO: )
+SIMBOLO: )
+```
