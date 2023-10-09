@@ -21,12 +21,12 @@ Video tutorial de los pasos 1 - 5: [Youtube](https://www.youtube.com/watch?v=nFG
 
 ## Correr el analizador léxico
 
-1. Abrir VS Code
+1. Con VS Code abierto
 1. Clona este repositorio y verifica que test.py y tambien analizador.l esten en el mismo folder
 1. En VS Code abres una nueva terminal, y seleccionas cmd
 1. Ejecuta el comando ```flex analizador.l```
-1. Ejecuta el comando ```gcc lex.yy.c -lfl```
-1. Ejecuta el .exe desde la terminal. Lo mas probable es que se llame a.exe por lo que solo podran ```a``` en la terminal y presionas enter
+1. Ejecuta el comando ```gcc lex.yy.c -lfl``` (esto creara un lex.yy.c en tu folder)
+1. Ejecuta el .exe desde la terminal. Creara un ejecutable que lo mas probable se llame a.exe por lo que solo podran ```a``` en la terminal y presionas enter
 1. Ver los resultados en la terminal
 
 ## Resultados Esperados
