@@ -19,7 +19,7 @@ Hasta el momento puede reconocer clases, funciones, librerias, comentarios de un
 Video tutorial de los pasos 1 - 5: [Youtube](https://www.youtube.com/watch?v=nFGcPlW_rOw)
 
 
-## Correr el analizador Léxico
+## Correr el analizador léxico
 
 1. Abrir VS Code
 1. Clona este repositorio y verifica que test.py y tambien analizador.l esten en el mismo folder
@@ -29,3 +29,5 @@ Video tutorial de los pasos 1 - 5: [Youtube](https://www.youtube.com/watch?v=nFG
 1. Ejecuta el .exe desde la terminal. Lo mas probable es que se llame a.exe por lo que solo podran ```a``` en la terminal y presionas enter
 1. Ver los resultados en la terminal
 
+## Resultados Esperados
+Una serie de textos en la terminal indicando lo que el analizador léxico reconoció del codigo, seguido por el token reconocido.
